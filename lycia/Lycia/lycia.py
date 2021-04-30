@@ -18,6 +18,7 @@ def extract_emojis(s):
 
 #Chatbot Modules By  @InukaAsith
 
+en_chats = []
 
 @LYCIA.on_message(
     filters.text & filters.reply & ~filters.bot & ~filters.via_bot & ~filters.forwarded,
@@ -101,7 +102,7 @@ async def lycia(client, message):
             "bid": "178",
             "key": "sX5A2PcYZbsN5EY6",
             "uid": "mashape",
-            "msg": {test},
+            "msg": {aura},
         }
         headers = {
             "x-rapidapi-key": "cf9e67ea99mshecc7e1ddb8e93d1p1b9e04jsn3f1bb9103c3f",
@@ -124,7 +125,7 @@ async def lycia(client, message):
             pro = translator.translate(red, lang_tgt=lan[0])
         try:
             await LYCIA.send_chat_action(message.chat.id, "typing")
-            await message.reply_text(pro)
+            await message.reply_text(red)
         except CFError as e:
             print(e)
 
@@ -168,13 +169,13 @@ async def redaura(client, message):
         aura = translator.translate(aura, lang_tgt="en")
 
    
-    aura = test.replace("lycia", "Aco")
-    aura = test.replace("Lycia", "Aco")
+    aura = aura.replace("lycia", "Aco")
+    aura = aura.replace("Lycia", "Aco")
     querystring = {
         "bid": "178",
         "key": "sX5A2PcYZbsN5EY6",
         "uid": "mashape",
-        "msg": {test},
+        "msg": {aura},
     }
     headers = {
         "x-rapidapi-key": "cf9e67ea99mshecc7e1ddb8e93d1p1b9e04jsn3f1bb9103c3f",
@@ -247,13 +248,13 @@ async def redaura(client, message):
         aura = translator.translate(aura, lang_tgt="en")
 
 
-    aura = test.replace("lycia", "Aco")
-    aura = test.replace("Lycia", "Aco")
+    aura = aura.replace("lycia", "Aco")
+    aura = aura.replace("Lycia", "Aco")
     querystring = {
         "bid": "178",
         "key": "sX5A2PcYZbsN5EY6",
         "uid": "mashape",
-        "msg": {test},
+        "msg": {aura},
     }
     headers = {
         "x-rapidapi-key": "cf9e67ea99mshecc7e1ddb8e93d1p1b9e04jsn3f1bb9103c3f",
@@ -279,3 +280,5 @@ async def redaura(client, message):
         await message.reply_text(red)
     except CFError as e:
         print(e)
+        
+       
