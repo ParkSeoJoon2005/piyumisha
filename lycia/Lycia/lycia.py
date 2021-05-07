@@ -272,9 +272,9 @@ async def redaura(client, message):
     result = result.replace("I was created by Lyciabot Team.", "I was created by @Arcane_Appeal_chat Team.")
     result = result.replace("<a href=\\", "<a href =")
     result = result.replace("<\/a>", "</a>")
-    pro = result
+    red = result
     if not "en" in lan and not lan == "":
-        red = translator.translate(pro, lang_tgt=lan[0])
+        red = translator.translate(red, lang_tgt=lan[0])
     try:
         await LYCIA.send_chat_action(message.chat.id, "typing")
         await message.reply_text(red)
