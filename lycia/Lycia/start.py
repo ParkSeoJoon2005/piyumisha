@@ -10,6 +10,6 @@ Hello, I am [Nίհα](https://telegra.ph/file/ff2e456161e8ef77fe7e3.jpg), an AI 
 @LYCIA.on_message(filters.command(["start"], prefixes = "/") & ~filters.edited)
 async def info(client, message):
     buttons = [
-                [InlineKeyboardButton("🦋 CЯΣΛƬӨЯ 🦋", url = "https://t.me/AidanNia"), InlineKeyboardButton("🦋 SUPPORT 🦋", url = "https://t.me/EywasSC")]
+                [InlineKeyboardButton("🦋 CЯΣΛƬӨЯ 🦋", url = "https://t.me/AidanNia"), InlineKeyboardButton("🦋 SUPPӨЯƬ 🦋", url = "https://t.me/EywasSC")]
               ]
     await LYCIA.send_message(chat_id = message.chat.id, text = LYCIA_START, reply_markup = InlineKeyboardMarkup(buttons))
