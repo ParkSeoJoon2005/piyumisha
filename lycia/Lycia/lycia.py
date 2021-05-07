@@ -39,7 +39,7 @@ async def lycia(client, message):
             "bid": "178",
             "key": "sX5A2PcYZbsN5EY6",
             "uid": "mashape",
-            "msg": {test},
+            "msg": {aura},
         }
         headers = {
             "x-rapidapi-key": "cf9e67ea99mshecc7e1ddb8e93d1p1b9e04jsn3f1bb9103c3f",
