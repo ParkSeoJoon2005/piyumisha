@@ -1,4 +1,3 @@
-from lycia.config import Config
 from pyrogram import Client
 
 API_ID = os.environ.get("API_ID", None)
