@@ -272,7 +272,7 @@ async def redaura(client, message):
     result = result.replace("I was created by Lyciabot Team.", "I was created by @Techno_Ocean Team.")
     result = result.replace("<a href=\\", "<a href =")
     result = result.replace("<\/a>", "</a>")
-    pro = result
+    red = result
     if not "en" in lan and not lan == "":
         red = translator.translate(red, lang_tgt=lan[0])
     try:
