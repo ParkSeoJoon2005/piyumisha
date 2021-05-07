@@ -205,7 +205,7 @@ async def redaura(client, message):
 
 @LYCIA.on_message(
     filters.regex("Niha|niha|NIHA")
-    & ~filters.bot("Niha|niha|NIHA")
+    & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
     & ~filters.reply
