@@ -36,13 +36,13 @@ async def inline_query_handler(client, query):
     string = query.query.lower()
 
     answers = []
-    if string.split()[0] == "lycia":
+    if string.split()[0] == "niha":
             if len(string.split()) < 2:
                 await client.answer_inline_query(
                     query.id,
                     results=answers,
-                    switch_pm_text='Lycia | Chat [text]',
-                    switch_pm_parameter='lycia',
+                    switch_pm_text='Niha | Chat [text]',
+                    switch_pm_parameter='niha',
                 )
                 return
             lycia = string.split(None, 1)[1].strip()
@@ -59,16 +59,16 @@ async def lyciachatbot(answers, text):
     result = await fetch(URL)
     buttons = InlineKeyboard(row_width=1)
     buttons.add(InlineKeyboardButton(
-        "Lycia",
-        switch_inline_query_current_chat="lycia"
+        "Nίհα",
+        switch_inline_query_current_chat="niha"
     ))
     caption = f"""
 **You:** `{text}`
-**Lycia:** `{result['message']}`"""
+**Nίհα:** `{result['message']}`"""
     answers.append(
         InlineQueryResultPhoto(
-            photo_url="https://telegra.ph/file/4fd47f6ab742a28b5e57c.jpg",
-            title="Lycia",
+            photo_url="https://telegra.ph/file/21d4cc3d589ec326426dc.jpg",
+            title="Nίհα",
             description=result['message'],
             caption=caption,
             reply_markup=buttons
