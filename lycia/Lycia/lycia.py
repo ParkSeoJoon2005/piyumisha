@@ -274,7 +274,7 @@ async def redaura(client, message):
     result = result.replace("<\/a>", "</a>")
     pro = result
     if not "en" in lan and not lan == "":
-        red = translator.translate(red, lang_tgt=lan[0])
+        red = translator.translate(pro, lang_tgt=lan[0])
     try:
         await LYCIA.send_chat_action(message.chat.id, "typing")
         await message.reply_text(red)
