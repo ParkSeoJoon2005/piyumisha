@@ -54,7 +54,7 @@ async def lycia(client, message):
         result = result.replace("Hi~", "Hello Friend I Am @Lyciachatbot")
         result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @madepranav")
         result = result.replace("Have the control right.", "My Father Is @madepranav")
-        result = result.replace("I was created by Lyciabot Team.", "I was created by @Arcane_Appeal_chat Team.")
+        result = result.replace("I was created by Lyciabot Team.", "I was created by @Techno_Ocean Team.")
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         red = result
@@ -117,7 +117,7 @@ async def lycia(client, message):
         result = result.replace("Hi~", "Hello Friend I Am @Lyciachatbot")
         result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @madepranav")
         result = result.replace("Have the control right.", "My Father Is @madepranav")
-        result = result.replace("I was created by Lyciabot Team.", "I was created by @Arcane_Appeal_chat Team.")
+        result = result.replace("I was created by Lyciabot Team.", "I was created by @Techno_Ocean Team.")
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         red = result
@@ -190,7 +190,7 @@ async def redaura(client, message):
     result = result.replace("Hi~", "Hello Friend I Am @Lyciachatbot")
     result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @madepranav")
     result = result.replace("Have the control right.", "My Father Is @madepranav")
-    result = result.replace("I was created by Lyciabot Team.", "I was created by @Arcane_Appeal_chat Team.")
+    result = result.replace("I was created by Lyciabot Team.", "I was created by @Techno_Ocean Team.")
     result = result.replace("<a href=\\", "<a href =")
     result = result.replace("<\/a>", "</a>")
     red = result
@@ -269,7 +269,7 @@ async def redaura(client, message):
     result = result.replace("Hi~", "Hello Friend I Am @elianachatbot")
     result = result.replace("My dear great botmaster, Daisybot Team.", "Made By @madepranav")
     result = result.replace("Have the control right.", "My Father Is @madepranav")
-    result = result.replace("I was created by Lyciabot Team.", "I was created by @Arcane_Appeal_chat Team.")
+    result = result.replace("I was created by Lyciabot Team.", "I was created by @Techno_Ocean Team.")
     result = result.replace("<a href=\\", "<a href =")
     result = result.replace("<\/a>", "</a>")
     pro = result
