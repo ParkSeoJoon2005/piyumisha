@@ -1,4 +1,5 @@
 # Voics Chatbot Module Credits Pranav Ajay 🐰Github = Red-Aura 🐹 Telegram= @madepranav
+# @lyciachatbot support Now
 import os
 import aiofiles
 import aiohttp
